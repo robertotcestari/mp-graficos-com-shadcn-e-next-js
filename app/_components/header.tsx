@@ -57,7 +57,7 @@ export default function Header({
       <nav className="flex gap-6">
         <div className="border-r-2 pr-6 border-black/10">
           <DropdownMenu>
-            <DropdownMenuTrigger>
+            <DropdownMenuTrigger asChild>
               <button className="flex flex-col items-center justify-center text-xs gap-2 border-black/10 border-2 px-4 py-3 rounded-lg">
                 <Image src={calendarIcon} alt="ícone de calendário" />
                 Calendário
